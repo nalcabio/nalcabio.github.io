@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      Nalca Biotech
+    </title>
+    <link href="site.css" rel="stylesheet">
+    <script type="text/javascript">
+      function selectLang(lang, supportedLangs = new Set(['en', 'es-disabled'])) {
+        const l = lang.slice(0, 2);
+        return supportedLangs.has(l) && l || 'en';
+      }
+      window.location = "index." + selectLang(navigator.language) + ".html";
+    </script>
+  </head>
+  <body>
+    <div class="px-4 py-5 sm:p-6">
+      <img class="mx-auto" src="public/nalca-logo.svg">
+    </div>
+    <div class="flex justify-center">
+      <div class="p-3">
+        🇬🇧
+        <a href="index.en.html">
+          English
+        </a>
+      </div>
+      <div class="p-3">
+        🇪🇸
+        <a href="index.es.html">
+          Español
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

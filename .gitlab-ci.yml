@@ -1,0 +1,11 @@
+image: alpine:latest
+
+pages:
+  stage: deploy
+  script:
+  - cd public && date > .last-deployed-at.txt
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
