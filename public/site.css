@@ -444,6 +444,10 @@ video {
   display: none;
 }
 
+a {
+  text-decoration-line: underline;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -547,6 +551,18 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-4 {
