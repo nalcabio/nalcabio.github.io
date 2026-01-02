@@ -1,0 +1,46 @@
+---
+eleventyExcludeFromCollections: true
+layout: full-width.njk
+---
+
+<div class="relative bg-white">
+  <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+    <div
+      class="px-6 pt-10 pb-24 sm:pb-32 lg:col-span-7 lg:px-0 lg:pt-40 lg:pb-48 xl:col-span-6"
+    >
+      <div class="mx-auto max-w-lg lg:mx-0">
+        <div class="hidden sm:mt-32 sm:flex lg:mt-16">
+          <div class="relative hidden px-3 py-1"></div>
+        </div>
+        <h1
+          class="mt-24 text-5xl font-semibold tracking-tight text-pretty text-gray-900 sm:mt-10 sm:text-7xl"
+        >
+          ¡Disculpa!
+        </h1>
+        <p
+          class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8"
+        >
+          We were unable to complete your payment. Please send us an email with
+          any error messages or screenshots you think might be helpful. We'll do
+          our best to resolve this as quickly as possible!
+        </p>
+        <div class="mt-10 flex items-center gap-x-6">
+          <a
+            class="text-lg font-semibold text-pretty text-gray-900 sm:text-xl/8"
+            href="mailto:contact@nalca.bio?subject=Payment+Error"
+            >contact@nalca.bio</a
+          >
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0"
+    >
+      <img
+        class="aspect-3/2 w-full bg-gray-50 object-fill lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+        src="payment-error.gif"
+        alt="Payment Error"
+      />
+    </div>
+  </div>
+</div>

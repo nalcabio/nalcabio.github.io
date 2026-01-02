@@ -1,0 +1,117 @@
+<footer class="bg-gray-900">
+  <div class="mx-auto max-w-7xl px-6 pt-16 pb-8 sm:pt-24 lg:px-8 lg:pt-32">
+    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+      {% include "logo-small.html" %}
+      <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+        <div class="md:grid md:grid-cols-2 md:gap-8">
+          <div>&nbsp;</div>
+          <div class="mt-10 md:mt-0">
+            <h3 class="text-sm/6 font-semibold text-white">Company</h3>
+            <ul class="mt-6 space-y-4" role="list">
+              <li>
+                <a
+                  class="text-sm/6 text-gray-400 hover:text-white"
+                  href="/{{ page.lang }}/about/"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-sm/6 text-gray-400 hover:text-white"
+                  href="/{{ page.lang }}/cookies/"
+                  >Cookie Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="md:grid md:grid-cols-2 md:gap-8">
+          <div>&nbsp;</div>
+          <div class="mt-10 md:mt-0">
+            <h3 class="text-sm/6 font-semibold text-white">Contact</h3>
+            <dl class="mt-6 space-y-4 text-sm/6 text-gray-400">
+              <div class="flex gap-x-4">
+                <dt class="flex items-center">
+                  <span class="sr-only">Telephone</span>
+                  {%- include "i/phone-outline.svg" %}
+                </dt>
+                <dd>
+                  <a class="hover:text-white" href="tel:+56967786092"
+                    >+56 9 6778-6092</a
+                  >
+                </dd>
+              </div>
+              <div class="flex gap-x-4">
+                <dt class="flex items-center">
+                  <span class="sr-only">Email</span>
+                  {%- include "i/envelope-outline.svg" %}
+                </dt>
+                <dd>
+                  <a class="hover:text-white" href="mailto:contact@nalca.bio"
+                    >contact@nalca.bio</a
+                  >
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 lg:flex lg:items-center lg:justify-between"
+    >
+      <div>
+        <h3 class="text-sm/6 font-semibold text-white">
+          Subscribe to our newsletter
+        </h3>
+        <p class="mt-2 text-sm/6 text-gray-300">
+          Get the latest news and updates about us and our products.
+        </p>
+      </div>
+      <div class="mt-6 sm:flex sm:max-w-md lg:mt-0">
+        {%- include "ghost-signup-form.html" %}
+      </div>
+    </div>
+    <div
+      class="mt-8 border-t border-white/10 pt-8 md:flex md:items-center md:justify-between"
+    >
+      <div class="flex gap-x-6 md:order-2">
+        <a
+          class="text-gray-400 hover:text-gray-300"
+          target="_linkedin"
+          href="https://linkedin.com/company/nalca-biotech/"
+        >
+          <span class="sr-only">LinkedIn</span>
+          {%- include "i/linkedin.svg" %}
+        </a>
+        <a
+          class="text-gray-400 hover:text-gray-300"
+          target="_github"
+          href="https://github.com/nalcabio"
+        >
+          <span class="sr-only">GitHub</span>
+          {%- include "i/github.svg" %}
+        </a>
+        <a
+          class="text-gray-400 hover:text-gray-300"
+          href="https://youtu.be/UEqTIwRrWvA?si=eAdDAObSEE2qsF-d"
+          target="_youtube"
+        >
+          <span class="sr-only">YouTube</span>
+          {%- include "i/youtube.svg" %}
+        </a>
+        <a
+          class="text-gray-400 hover:text-gray-300"
+          href="/{{ page.lang }}/feed.xml"
+          target="_rss"
+        >
+          <span class="sr-only">RSS</span>
+          {%- include "i/rss-solid.svg" %}
+        </a>
+      </div>
+      <p class="mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">
+        &copy; 2025 Nalca Biotech, SpA. {{ i18n[lang].copyright }}
+      </p>
+    </div>
+  </div>
+</footer>

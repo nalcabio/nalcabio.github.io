@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <title>Nalca Biotech</title>
+  <subtitle>Fuente RSS de Nalca Biotech en Español</subtitle>
+  <link href="https://nalca.bio/es/feed.xml" rel="self" />
+  <link href="https://nalca.bio/" />
+  <updated>2026-01-27T19:47:40Z</updated>
+  <id>https://nalca.bio/</id>
+  <author>
+    <name>Nalca Biotech</name>
+    <email>webmaster@nalca.bio</email>
+  </author>
+</feed>

@@ -1,0 +1,13 @@
+---
+layout: simple.njk
+---
+
+<h2
+  class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
+>
+  {{ title }}
+</h2>
+{%- if subtitle %}
+  <p class="mt-2 text-lg/8 text-gray-600">{{ subtitle }}</p>
+{%- endif %}
+<div class="mt-16 space-y-20 lg:mt-20 lg:space-y-20">{{ content | safe }}</div>
