@@ -1,0 +1,18 @@
+plugins = [
+  "@prettier/plugin-ruby",
+  "@prettier/plugin-xml",
+  "prettier-plugin-jinja-template",
+  "prettier-plugin-organize-attributes",
+  "prettier-plugin-tailwindcss",
+  "prettier-plugin-toml",
+]
+
+[[overrides]]
+files = ["*"]
+[overrides.options]
+tabWidth = 2
+
+[[overrides]]
+files = ["*.html", "*.njk"]
+[overrides.options]
+parser = "jinja-template"
