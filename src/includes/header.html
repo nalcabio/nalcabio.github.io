@@ -55,7 +55,7 @@
       {%- for lang in i18n.langs %}
         {%- if page.lang != lang.code %}
           <a
-            class="text-sm/6 font-semibold text-gray-900"
+            class="hidden text-sm/6 font-semibold text-gray-900"
             href="/{{ lang.code }}/"
             >{{ lang.name }}</a
           >
@@ -117,7 +117,7 @@
                   >Newsletter</a
                 >
               </div>
-              <div class="py-6">
+              <div class="hidden py-6">
                 {%- for lang in i18n.langs %}
                   {%- if page.lang != lang.code %}
                     <a
