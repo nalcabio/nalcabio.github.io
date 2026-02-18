@@ -6,11 +6,15 @@
   "en": {
     "copyright": "All rights reserved.",
     "posts": "case-studies",
-    "tags": "tags"
+    "tags": "tags",
+    "description": "Continuous biomanufacturing at any scale made simple and affordable",
+    "title": "Simple and affordable continuous biomanufacturing"
   },
   "es": {
     "copyright": "Reservados todos los derechos.",
     "posts": "estudios-de-caso",
-    "tags": "etiquetas"
+    "tags": "etiquetas",
+    "description": "Continuous biomanufacturing at any scale made simple and affordable",
+    "title": "Simple and affordable continuous biomanufacturing"
   }
 }

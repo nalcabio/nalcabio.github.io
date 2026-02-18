@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nalca Biotech</title>
+    <title>Nalca Biotech - {{ i18n[lang].title }}</title>
     <script src="https://app.termly.io/resource-blocker/f637f1e0-5b68-40d3-8d89-d80346dd91b2?autoBlock=on"></script>
     <script
       async
@@ -30,6 +30,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="manifest" href="/site.webmanifest" />
     {% include "share-sheet.html" %}
+    <meta name="description" content="{{ i18n[lang].description }}" />
+    <meta
+      name="keywords"
+      content="bioprocess scale up, biorreactor continuo, biorreactores, continuous biomanufacturing, continuous bioprocess, continuous bioprocessing, continuous bioreactor, continuous fermentation, escalamiento de bioprocesos, fermentador, produccion continua,"
+    />
     <meta name="generator" content="{{ eleventy.generator }}" />
   </head>
   <body>
