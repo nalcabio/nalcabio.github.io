@@ -1,11 +1,13 @@
-<h2
-  class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
->
-  {{ title }}
-</h2>
-<p class="mt-2 text-lg/8 text-gray-600">{{ subtitle }}</p>
-<div class="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
-  {%- for post in posts | reverse %}
-    {%- include "article.html" %}
-  {%- endfor %}
+<div class="mt-16 px-6 lg:px-8">
+  <h2
+    class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
+  >
+    {{ title }}
+  </h2>
+  <p class="mt-2 text-lg/8 text-gray-600">{{ subtitle }}</p>
+  <div class="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
+    {%- for post in posts | reverse %}
+      {%- include "article.html" %}
+    {%- endfor %}
+  </div>
 </div>

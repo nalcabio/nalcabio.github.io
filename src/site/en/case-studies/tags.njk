@@ -1,0 +1,22 @@
+---
+eleventyExcludeFromCollections: true
+layout: titled.njk
+title: Tags
+subtitle: Explore our case studies by subject.
+---
+
+{% set langs = collections.all | siteLangs %}
+{% set langTags = collections.all | tagsByLang(langs) %}
+
+<div class="overflow-wrap gap-x-4 py-5">
+  {%- for tag in langTags [ page.lang ] | filterTags | sortAlphabetically %}
+    <a
+      href="/{{ page.lang }}/{{ i18n[page.lang].posts }}/{{ i18n[page.lang].tags }}/{{ tag | slugify }}/"
+    >
+      <span
+        class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-gray-500/10 ring-inset"
+        >{{ tag }}</span
+      ></a
+    >
+  {%- endfor %}
+</div>
