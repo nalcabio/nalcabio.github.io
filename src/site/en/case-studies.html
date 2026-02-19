@@ -1,0 +1,12 @@
+---
+layout: simple.njk
+eleventyNavigation:
+  key: Case Studies
+  order: 1
+eleventyComputed:
+  title: "{{ eleventyNavigation.key }}"
+subtitle: "Case studies about our products and services"
+---
+
+{%- set posts = collections.posts | matchPageLang %}
+{%- include "posts.html" %}

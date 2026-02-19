@@ -1,0 +1,26 @@
+---js
+// <script>
+const eleventyExcludeFromCollections = true;
+
+const layout = "simple.njk";
+
+const pagination = {
+  data: "collections",
+  size: 1,
+  alias: "tag",
+  filter: ["all", "posts"],
+  // addAllPagesToCollections: true,
+};
+
+const eleventyComputed = {
+  title: "{{ tag }}",
+  subtitle: "Case studies about {{ tag }}.",
+  permalink: function(data) {
+    return `/en/case-studies/tags/${this.slugify(data.tag)}/`;
+  }
+};
+// </script>
+---
+
+{%- set posts = collections[ tag ] | matchPageLang %}
+{%- include "posts.html" %}
