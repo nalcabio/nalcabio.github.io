@@ -71,19 +71,13 @@ export default function (eleventyConfig) {
     );
   });
 
-  eleventyConfig.addFilter(
-    "tagsByLang",
-    function (collection = [], langs = []) {
-      return langs.reduce((accum, lang) => {
-        const tags = collection
-          .filter((item) => item.data.page.lang === lang && !!item.data.tags)
-          .map((item) => item.data.tags)
-          .flat();
-        accum[lang] = Array.from(new Set(Array.isArray(tags) ? tags : [tags]));
-        return accum;
-      }, {});
-    },
-  );
+  eleventyConfig.addFilter("tagsByLang", function (collection = [], lang) {
+    const tags = collection
+      .filter((item) => item.data.page.lang === lang && !!item.data.tags)
+      .map((item) => item.data.tags)
+      .flat();
+    return Array.from(new Set(Array.isArray(tags) ? tags : [tags]));
+  });
 
   eleventyConfig.addFilter("sortPages", function (collection = []) {
     return collection.sort((item1, item2) => {
@@ -93,7 +87,10 @@ export default function (eleventyConfig) {
 
   eleventyConfig.addFilter("filterTags", function (tags = []) {
     return tags.filter((tag) => {
-      return ["all", "posts"].indexOf(tag) === -1;
+      return (
+        ["all", "footer", "case-studies", "estudios-de-caso"].indexOf(tag) ===
+        -1
+      );
     });
   });
 
@@ -103,14 +100,14 @@ export default function (eleventyConfig) {
     });
   });
 
-  eleventyConfig.addFilter("htmlDateString", function (dateObj, zone = "utc") {
-    return DateTime.fromJSDate(dateObj, { zone: zone }).toFormat("yyyy-LL-dd");
+  eleventyConfig.addFilter("isoDateString", function (dateObj) {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toISODate();
   });
 
-  eleventyConfig.addFilter(
-    "readableDate",
-    (dateObj, format = "dd LLLL yyyy", zone = "utc") => {
-      return DateTime.fromJSDate(dateObj, { zone: zone }).toFormat(format);
-    },
-  );
+  eleventyConfig.addFilter("readableDate", (dateObj, locale) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString(
+      DateTime.DATE_FULL,
+      { locale: locale },
+    );
+  });
 }

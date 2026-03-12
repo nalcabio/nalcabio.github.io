@@ -17,7 +17,7 @@
         command="show-modal"
         commandfor="mobile-menu"
       >
-        <span class="sr-only">Open main menu</span>
+        <span class="sr-only">{{ i18n[page.lang].menu.open }}</span>
         <svg
           class="size-6"
           viewBox="0 0 24 24"
@@ -36,26 +36,26 @@
       </button>
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
-      {%- for entry in collections.all | matchPageLang | eleventyNavigation %}
+      {%- for item in collections.all | matchPageLang | eleventyNavigation %}
         <a
           class="text-sm/6 font-semibold text-gray-900"
-          href="{{ entry.url }}"
-          {% if entry.url == page.url %}aria-current="page"{% endif %}
-          >{{ entry.title }}</a
+          href="{{ item.url }}"
+          {% if item.url == page.url %}aria-current="page"{% endif %}
+          >{{ item.title }}</a
         >
       {%- endfor %}
       <a
         class="text-sm/6 font-semibold text-gray-900"
         href="https://news.nalca.bio/"
         target="_news"
-        >News</a
+        >{{ i18n[page.lang].news }}</a
       >
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
       {%- for lang in i18n.langs %}
         {%- if page.lang != lang.code %}
           <a
-            class="hidden text-sm/6 font-semibold text-gray-900"
+            class="text-sm/6 font-semibold text-gray-900"
             href="/{{ lang.code }}/"
             >{{ lang.name }}</a
           >
@@ -81,7 +81,7 @@
               command="close"
               commandfor="mobile-menu"
             >
-              <span class="sr-only">Close menu</span>
+              <span class="sr-only">{{ i18n[page.lang].menu.close }}</span>
               <svg
                 class="size-6"
                 viewBox="0 0 24 24"
@@ -114,10 +114,10 @@
                   class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                   href="https://news.nalca.bio/"
                   target="_news"
-                  >News</a
+                  >{{ i18n[page.lang].news }}</a
                 >
               </div>
-              <div class="hidden py-6">
+              <div class="py-6">
                 {%- for lang in i18n.langs %}
                   {%- if page.lang != lang.code %}
                     <a

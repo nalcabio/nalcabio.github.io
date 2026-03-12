@@ -8,7 +8,7 @@ permalink: "/{{ lang }}/sitemap.xml"
   {%- for page in collections.all | matchPageLang | sortPages %}
     <url>
       <loc>{{ page.url | htmlBaseUrl }}</loc>
-      <lastmod>{{ page.date | htmlDateString }}</lastmod>
+      <lastmod>{{ page.date | isoDateString }}</lastmod>
     </url>
   {%- endfor %}
 </urlset>

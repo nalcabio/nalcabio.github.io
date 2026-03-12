@@ -4,7 +4,7 @@ layout: simple.njk
 
 <div class="max-w-4xl px-6 lg:px-8">
   <p class="text-base/7 font-semibold text-teal-600">
-    {{ date | readableDate }}
+    {{ date | readableDate(page.lang) }}
   </p>
   <h1
     class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl"
@@ -49,9 +49,9 @@ layout: simple.njk
       >
     {%- endfor %}
   </div>
-  {%- if collections.posts %}
-    {%- set prevPost = collections.posts | matchPageLang | getPreviousCollectionItem %}
-    {%- set nextPost = collections.posts | matchPageLang | getNextCollectionItem %}
+  {%- if posts %}
+    {%- set prevPost = posts | getPreviousCollectionItem %}
+    {%- set nextPost = posts | getNextCollectionItem %}
     {%- if prevPost or nextPost %}
       <nav
         class="grid grid-cols-1 border-t border-gray-200 px-4 sm:px-0 md:flex md:flex-wrap md:items-center md:justify-between"

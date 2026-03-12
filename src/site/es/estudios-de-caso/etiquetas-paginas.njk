@@ -1,0 +1,28 @@
+---js
+// <script>
+const eleventyExcludeFromCollections = true;
+
+const layout = "simple.njk";
+
+const pagination = {
+  data: 'collections["estudios-de-caso"]',
+  alias: "etiqueta",
+  size: 1,
+  before: function(items, _) {
+    return Array.from(new Set(items.map((item) => item.data.tags).flat()));
+  },
+  // addAllPagesToCollections: true,
+};
+
+const eleventyComputed = {
+  title: "{{ etiqueta }}",
+  subtitle: "Estudios de caso sobre {{ etiqueta }}.",
+  permalink: function(data) {
+    return `/es/estudios-de-caso/etiquetas/${this.slugify(data.etiqueta)}/`;
+  }
+};
+// </script>
+---
+
+{%- set posts = collections[ etiqueta ] | matchPageLang %}
+{%- include "posts.html" %}

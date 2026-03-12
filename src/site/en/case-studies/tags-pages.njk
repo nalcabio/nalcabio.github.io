@@ -5,10 +5,12 @@ const eleventyExcludeFromCollections = true;
 const layout = "simple.njk";
 
 const pagination = {
-  data: "collections",
-  size: 1,
+  data: 'collections["case-studies"]',
   alias: "tag",
-  filter: ["all", "posts"],
+  size: 1,
+  before: function(items, _) {
+    return Array.from(new Set(items.map((item) => item.data.tags).flat()));
+  },
   // addAllPagesToCollections: true,
 };
 

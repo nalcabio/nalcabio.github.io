@@ -8,5 +8,5 @@ eleventyComputed:
 subtitle: "Case studies about our products and services"
 ---
 
-{%- set posts = collections.posts | matchPageLang %}
+{%- set posts = collections["case-studies"] %}
 {%- include "posts.html" %}

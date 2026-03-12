@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>https://nalca.bio/es/</loc>
+      <lastmod>2026-04-10</lastmod>
+    </url>
+    <url>
+      <loc>https://nalca.bio/es/cookies/</loc>
+      <lastmod>2026-04-08</lastmod>
+    </url>
+    <url>
+      <loc>https://nalca.bio/es/estudios-de-caso/</loc>
+      <lastmod>2026-04-09</lastmod>
+    </url>
+    <url>
+      <loc>https://nalca.bio/es/estudios-de-caso/bee-technology/</loc>
+      <lastmod>2026-02-18</lastmod>
+    </url>
+    <url>
+      <loc>https://nalca.bio/es/estudios-de-caso/cebib/</loc>
+      <lastmod>2026-02-18</lastmod>
+    </url>
+    <url>
+      <loc>https://nalca.bio/es/estudios-de-caso/exacta-bioscience/</loc>
+      <lastmod>2026-02-18</lastmod>
+    </url>
+    <url>
+      <loc>https://nalca.bio/es/sobre/</loc>
+      <lastmod>2026-04-08</lastmod>
+    </url>
 </urlset>

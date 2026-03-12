@@ -5,11 +5,10 @@ title: Tags
 subtitle: Explore our case studies by subject.
 ---
 
-{% set langs = collections.all | siteLangs %}
-{% set langTags = collections.all | tagsByLang(langs) %}
+{% set langTags = collections.all | tagsByLang(page.lang) %}
 
 <div class="overflow-wrap gap-x-4 py-5">
-  {%- for tag in langTags [ page.lang ] | filterTags | sortAlphabetically %}
+  {%- for tag in langTags | filterTags | sortAlphabetically %}
     <a
       href="/{{ page.lang }}/{{ i18n[page.lang].posts }}/{{ i18n[page.lang].tags }}/{{ tag | slugify }}/"
     >

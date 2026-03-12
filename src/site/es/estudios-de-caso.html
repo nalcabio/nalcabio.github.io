@@ -1,0 +1,12 @@
+---
+layout: simple.njk
+eleventyNavigation:
+  key: Estudios de Caso
+  order: 1
+eleventyComputed:
+  title: "{{ eleventyNavigation.key }}"
+subtitle: "Estudios de caso sobre nuestros productos y servicios"
+---
+
+{%- set posts = collections["estudios-de-caso"] %}
+{%- include "posts.html" %}

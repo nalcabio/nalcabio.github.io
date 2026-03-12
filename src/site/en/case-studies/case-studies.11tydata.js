@@ -1,6 +1,9 @@
 export default {
   layout: "post.njk",
-  tags: ["posts"],
+  tags: ["case-studies"],
+  eleventyComputed: {
+    posts: (data) => data.collections["case-studies"],
+  },
   author: {
     avatar: "webmaster.html",
     name: "Nalca Biotech",

@@ -15,8 +15,8 @@
     <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs">
       <time
         class="w-min text-nowrap text-gray-500"
-        datetime="{{ post.date | htmlDateString }}"
-        >{{ post.date | readableDate }}</time
+        datetime="{{ post.date | isoDateString }}"
+        >{{ post.date | readableDate(page.lang) }}</time
       >
       {%- for tag in post.data.tags | filterTags %}
         <a

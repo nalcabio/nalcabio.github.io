@@ -4,17 +4,51 @@
     { "code": "es", "name": "Español" }
   ],
   "en": {
+    "about": "About",
+    "company": "Company",
+    "cookies": {
+      "policy": "Cookie Policy"
+    },
+    "menu": {
+      "open": "Open menu",
+      "close": "Close menu"
+    },
+    "contact": "Contact",
+    "email": "Email",
+    "phone": "Telephone",
+    "news": "News",
     "copyright": "All rights reserved.",
     "posts": "case-studies",
     "tags": "tags",
     "description": "Continuous biomanufacturing at any scale made simple and affordable",
-    "title": "Simple and affordable continuous biomanufacturing"
+    "title": "Simple and affordable continuous biomanufacturing",
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "blurb": "Get the latest news and updates about us and our products."
+    }
   },
   "es": {
+    "about": "Sobre",
+    "company": "Negocio",
+    "cookies": {
+      "policy": "Política de Cookies"
+    },
+    "menu": {
+      "open": "Abrir menú",
+      "close": "Cerrar menú"
+    },
+    "contact": "Contacto",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "news": "Noticias",
     "copyright": "Reservados todos los derechos.",
     "posts": "estudios-de-caso",
     "tags": "etiquetas",
-    "description": "Continuous biomanufacturing at any scale made simple and affordable",
-    "title": "Simple and affordable continuous biomanufacturing"
+    "description": "Biofabricación continua a cualquier escala, simplificada y asequible",
+    "title": "Biofabricación continua, sencilla y asequible",
+    "newsletter": {
+      "title": "Suscríbete a nuestro boletín informativo",
+      "blurb": "Reciba las últimas noticias y actualizaciones sobre nosotros y nuestros productos."
+    }
   }
 }

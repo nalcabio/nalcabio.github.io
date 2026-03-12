@@ -4,10 +4,395 @@
   <subtitle>Fuente RSS de Nalca Biotech en Español</subtitle>
   <link href="https://nalca.bio/es/feed.xml" rel="self" />
   <link href="https://nalca.bio/" />
-  <updated>2026-02-22T18:27:13Z</updated>
+  <updated>2026-02-18T00:00:00Z</updated>
   <id>https://nalca.bio/</id>
   <author>
     <name>Nalca Biotech</name>
     <email>webmaster@nalca.bio</email>
   </author>
+    <entry>
+      <title>Exacta Bioscience</title>
+      <link href="https://nalca.bio/es/estudios-de-caso/exacta-bioscience/" />
+      <updated>2026-02-18T00:00:00Z</updated>
+      <id>https://nalca.bio/es/estudios-de-caso/exacta-bioscience/</id>
+      <content type="html">
+&lt;div class=&quot;mt-16 rounded-md bg-purple-400&quot;&gt;
+  &lt;div class=&quot;mx-auto max-w-7xl px-6 lg:px-8&quot;&gt;
+    &lt;dl class=&quot;divide-y divide-gray-100&quot;&gt;
+      &lt;div class=&quot;px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0&quot;&gt;
+        &lt;dt class=&quot;text-xl/8 font-semibold text-gray-900&quot;&gt;Microorganismo&lt;/dt&gt;
+        &lt;dd class=&quot;mt-1 text-base/7 text-gray-700 sm:col-span-2 sm:mt-0&quot;&gt;
+          Bacterias gram positivas
+        &lt;/dd&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0&quot;&gt;
+        &lt;dt class=&quot;text-xl/8 font-semibold text-gray-900&quot;&gt;Producto&lt;/dt&gt;
+        &lt;dd class=&quot;mt-1 text-base/7 text-gray-700 sm:col-span-2 sm:mt-0&quot;&gt;
+          Péptidos con actividad antifúngica
+        &lt;/dd&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0&quot;&gt;
+        &lt;dt class=&quot;text-xl/8 font-semibold text-gray-900&quot;&gt;Industria&lt;/dt&gt;
+        &lt;dd class=&quot;mt-1 text-base/7 text-gray-700 sm:col-span-2 sm:mt-0&quot;&gt;
+          Agricultura
+        &lt;/dd&gt;
+      &lt;/div&gt;
+    &lt;/dl&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mt-16 rounded-md bg-gray-900 py-24 sm:py-32&quot;&gt;
+  &lt;div class=&quot;mx-auto max-w-7xl px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;mx-auto max-w-2xl lg:text-center&quot;&gt;
+      &lt;h1 class=&quot;mt-2 text-4xl font-semibold tracking-tight text-pretty text-purple-400 sm:text-5xl&quot; id=&quot;aumentar-la-produccion-sin-anadir-nuevos-equipos&quot;&gt;
+        Aumentar la producción sin añadir nuevos equipos
+      &lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none&quot;&gt;
+      &lt;dl class=&quot;grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3&quot;&gt;
+        &lt;div class=&quot;flex flex-col&quot;&gt;
+          &lt;dt class=&quot;flex items-center gap-x-3 text-xl/8 font-semibold text-white&quot;&gt;
+            0 equipos nuevos
+          &lt;/dt&gt;
+          &lt;dd class=&quot;mt-4 flex flex-auto flex-col text-base/7 text-gray-400&quot;&gt;
+            &lt;p class=&quot;flex-auto&quot;&gt;
+              La implementación no requirió maquinaria adicional ni grandes
+              inversiones
+            &lt;/p&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;flex flex-col&quot;&gt;
+          &lt;dt class=&quot;flex items-center gap-x-3 text-xl/8 font-semibold text-white&quot;&gt;
+            +200% de productividad
+          &lt;/dt&gt;
+          &lt;dd class=&quot;mt-4 flex flex-auto flex-col text-base/7 text-gray-400&quot;&gt;
+            &lt;p class=&quot;flex-auto&quot;&gt;
+              Más del doble de producción en comparación con el proceso por
+              lotes
+            &lt;/p&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;flex flex-col&quot;&gt;
+          &lt;dt class=&quot;flex items-center gap-x-3 text-xl/8 font-semibold text-white&quot;&gt;
+            15 días
+          &lt;/dt&gt;
+          &lt;dd class=&quot;mt-4 flex flex-auto flex-col text-base/7 text-gray-400&quot;&gt;
+            &lt;p class=&quot;flex-auto&quot;&gt;
+              De los datos brutos a un modelo experimental validado
+            &lt;/p&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+      &lt;/dl&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mt-16&quot;&gt;
+  Visite
+  &lt;a href=&quot;https://www.exactascience.com/&quot; target=&quot;_exactabioscience&quot;&gt;www.exactascience.com&lt;/a&gt;
+  para obtener más información sobre Exacta Bioscience y los productos y
+  servicios que ofrecen.
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+      <title>El Centro de Biotecnología y Bioingeniería (CeBiB)</title>
+      <link href="https://nalca.bio/es/estudios-de-caso/cebib/" />
+      <updated>2026-02-18T00:00:00Z</updated>
+      <id>https://nalca.bio/es/estudios-de-caso/cebib/</id>
+      <content type="html">
+&lt;div class=&quot;mt-16 rounded-md bg-green-400&quot;&gt;
+  &lt;div class=&quot;mx-auto max-w-7xl px-6 lg:px-8&quot;&gt;
+    &lt;dl class=&quot;divide-y divide-gray-100&quot;&gt;
+      &lt;div class=&quot;px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0&quot;&gt;
+        &lt;dt class=&quot;text-xl/8 font-semibold text-gray-900&quot;&gt;Microorganismo&lt;/dt&gt;
+        &lt;dd class=&quot;mt-1 text-base/7 text-gray-700 sm:col-span-2 sm:mt-0&quot;&gt;
+          Levadura (Pichia pastoris)
+        &lt;/dd&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0&quot;&gt;
+        &lt;dt class=&quot;text-xl/8 font-semibold text-gray-900&quot;&gt;Producto&lt;/dt&gt;
+        &lt;dd class=&quot;mt-1 text-base/7 text-gray-700 sm:col-span-2 sm:mt-0&quot;&gt;
+          Enzima recombinante
+        &lt;/dd&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0&quot;&gt;
+        &lt;dt class=&quot;text-xl/8 font-semibold text-gray-900&quot;&gt;Industria&lt;/dt&gt;
+        &lt;dd class=&quot;mt-1 text-base/7 text-gray-700 sm:col-span-2 sm:mt-0&quot;&gt;
+          Nutrición animal
+        &lt;/dd&gt;
+      &lt;/div&gt;
+    &lt;/dl&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mt-16 rounded-md bg-gray-900 py-24 sm:py-32&quot;&gt;
+  &lt;div class=&quot;mx-auto max-w-7xl px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;mx-auto max-w-2xl lg:text-center&quot;&gt;
+      &lt;h1 class=&quot;mt-2 text-4xl font-semibold tracking-tight text-pretty text-green-400 sm:text-5xl&quot; id=&quot;una-forma-sencilla-de-validar-la-expresion-recombinante-sin-usar-un-biorreactor&quot;&gt;
+        Una forma sencilla de validar la expresión recombinante sin usar un
+        biorreactor
+      &lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none&quot;&gt;
+      &lt;dl class=&quot;grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2&quot;&gt;
+        &lt;div class=&quot;flex flex-col&quot;&gt;
+          &lt;dt class=&quot;flex items-center gap-x-3 text-xl/8 font-semibold text-white&quot;&gt;
+            50% menos de trabajo manual
+          &lt;/dt&gt;
+          &lt;dd class=&quot;mt-4 flex flex-auto flex-col text-base/7 text-gray-400&quot;&gt;
+            &lt;p class=&quot;flex-auto&quot;&gt;
+              La cosecha y alimentación automatizadas reducen los pasos manuales
+              en comparación con los procesos por lotes
+            &lt;/p&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;flex flex-col&quot;&gt;
+          &lt;dt class=&quot;flex items-center gap-x-3 text-xl/8 font-semibold text-white&quot;&gt;
+            Hasta 10 veces menos costo operativo
+          &lt;/dt&gt;
+          &lt;dd class=&quot;mt-4 flex flex-auto flex-col text-base/7 text-gray-400&quot;&gt;
+            &lt;p class=&quot;flex-auto&quot;&gt;
+              Flujos de trabajo de expresión validados a una fracción del costo
+              de un reactor de alimentación discontinua
+            &lt;/p&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+      &lt;/dl&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mt-16&quot;&gt;
+  &lt;h2 class=&quot;text-2xl font-bold tracking-tight text-gray-900&quot; id=&quot;el-reto&quot;&gt;El Reto 🔬&lt;/h2&gt;
+  &lt;p class=&quot;mt-6&quot;&gt;
+    La validación temprana de la expresión de proteínas recombinantes requería
+    experimentos con pocos controles en matraces o costosos y laboriosos
+    procesos en biorreactores, lo que limitaba la velocidad y el rendimiento
+    experimental.
+  &lt;/p&gt;
+  &lt;h2 class=&quot;mt-16 text-2xl font-bold tracking-tight text-gray-900&quot; id=&quot;la-solucion-de-nalca-biotech-viabilidad-y-validacion&quot;&gt;
+    La solución de Nalca Biotech: Viabilidad y validación 🔥
+  &lt;/h2&gt;
+  &lt;div class=&quot;flex max-w-4xl items-center justify-center&quot;&gt;
+    &lt;figure class=&quot;mt-6&quot;&gt;
+      &lt;img class=&quot;aspect-video rounded-xl bg-gray-50 object-cover&quot; src=&quot;/images/case-studies/cebib-1.png&quot; alt=&quot;Un sistema Nalca 1 implementado en el laboratorio de CeBIB en un proceso de fermentación de dos etapas&quot;&gt;
+      &lt;figcaption class=&quot;mt-2 flex gap-x-2 text-sm/6 text-gray-500&quot;&gt;
+        &lt;svg class=&quot;mt-0.5 size-5 flex-none text-gray-300&quot; viewBox=&quot;0 0 20 20&quot; fill=&quot;currentColor&quot; data-slot=&quot;icon&quot; aria-hidden=&quot;true&quot;&gt;
+          &lt;path d=&quot;M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z&quot; clip-rule=&quot;evenodd&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;/path&gt;
+        &lt;/svg&gt;
+        Un sistema Nalca 1 implementado en el laboratorio de CeBIB en un proceso
+        de fermentación de dos etapas
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;mt-6&quot;&gt;
+    Etapa 1: Crecimiento de biomasa; Etapa 2: Producción del producto deseado.
+    Se utilizó un sistema Nalca 1 automatizado, continuo y simplificado para
+    evaluar el rendimiento de la expresión entre reactores a escala de matraz y
+    de alimentación discontinua, sin el costo ni la complejidad de operar un
+    biorreactor.
+  &lt;/p&gt;
+  &lt;h2 class=&quot;mt-16 text-2xl font-bold tracking-tight text-gray-900&quot; id=&quot;resultados&quot;&gt;
+    Resultados
+  &lt;/h2&gt;
+  &lt;ul class=&quot;mt-6 max-w-4xl space-y-8 text-gray-600&quot; role=&quot;list&quot;&gt;
+    &lt;li class=&quot;flex gap-x-3&quot;&gt;
+      &lt;span&gt;&lt;strong class=&quot;font-semibold text-gray-900&quot;&gt;Rápido.&lt;/strong&gt;
+        Evaluación más rápida de la estabilidad de la expresión y el rendimiento
+        del constructo.
+      &lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;flex gap-x-3&quot;&gt;
+      &lt;span&gt;&lt;strong class=&quot;font-semibold text-gray-900&quot;&gt;Rentable.&lt;/strong&gt;
+        Menor dependencia del tiempo del biorreactor y los costos operativos
+        asociados.
+      &lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;flex gap-x-3&quot;&gt;
+      &lt;span&gt;&lt;strong class=&quot;font-semibold text-gray-900&quot;&gt;Preparado para la producción a gran escala.&lt;/strong&gt;
+        Permitió una reducción temprana de riesgos antes de pasar a la
+        alimentación discontinua y a ensayos a mayor escala.
+      &lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mt-16&quot;&gt;
+  Visite
+  &lt;a href=&quot;https://www.cebib-chile.com/&quot; target=&quot;_cebib&quot;&gt;www.cebib-chile.com&lt;/a&gt;
+  para obtener más información sobre CeBiB y la investigación avanzada que
+  realizan.
+&lt;/div&gt;
+</content>
+    </entry>
+    <entry>
+      <title>Bee Technology</title>
+      <link href="https://nalca.bio/es/estudios-de-caso/bee-technology/" />
+      <updated>2026-02-18T00:00:00Z</updated>
+      <id>https://nalca.bio/es/estudios-de-caso/bee-technology/</id>
+      <content type="html">
+&lt;div class=&quot;mt-16 rounded-md bg-amber-400&quot;&gt;
+  &lt;div class=&quot;mx-auto max-w-7xl px-6 lg:px-8&quot;&gt;
+    &lt;dl class=&quot;divide-y divide-gray-100&quot;&gt;
+      &lt;div class=&quot;px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0&quot;&gt;
+        &lt;dt class=&quot;text-xl/8 font-semibold text-gray-900&quot;&gt;Microorganismo&lt;/dt&gt;
+        &lt;dd class=&quot;mt-1 text-base/7 text-gray-700 sm:col-span-2 sm:mt-0&quot;&gt;
+          Consorcio bacteriano
+        &lt;/dd&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0&quot;&gt;
+        &lt;dt class=&quot;text-xl/8 font-semibold text-gray-900&quot;&gt;Producto&lt;/dt&gt;
+        &lt;dd class=&quot;mt-1 text-base/7 text-gray-700 sm:col-span-2 sm:mt-0&quot;&gt;
+          Péptidos para prolongar la vida útil de la carne
+        &lt;/dd&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0&quot;&gt;
+        &lt;dt class=&quot;text-xl/8 font-semibold text-gray-900&quot;&gt;Industria&lt;/dt&gt;
+        &lt;dd class=&quot;mt-1 text-base/7 text-gray-700 sm:col-span-2 sm:mt-0&quot;&gt;
+          Alimentos
+        &lt;/dd&gt;
+      &lt;/div&gt;
+    &lt;/dl&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mt-16 rounded-md bg-gray-900 py-24 sm:py-32&quot;&gt;
+  &lt;div class=&quot;mx-auto max-w-7xl px-6 lg:px-8&quot;&gt;
+    &lt;div class=&quot;mx-auto max-w-2xl lg:text-center&quot;&gt;
+      &lt;h1 class=&quot;mt-2 text-4xl font-semibold tracking-tight text-pretty text-amber-400 sm:text-5xl&quot; id=&quot;desde-experimentos-en-matraces-hasta-ensayos-industriales&quot;&gt;
+        Desde experimentos en matraces hasta ensayos industriales
+      &lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none&quot;&gt;
+      &lt;dl class=&quot;grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2&quot;&gt;
+        &lt;div class=&quot;flex flex-col&quot;&gt;
+          &lt;dt class=&quot;flex items-center gap-x-3 text-xl/8 font-semibold text-white&quot;&gt;
+            Capacidad nominal de 100 L/mes
+          &lt;/dt&gt;
+          &lt;dd class=&quot;mt-4 flex flex-auto flex-col text-base/7 text-gray-400&quot;&gt;
+            &lt;p class=&quot;flex-auto&quot;&gt;
+              Producción automatizada continua y simplificada con Nalca 1
+            &lt;/p&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;flex flex-col&quot;&gt;
+          &lt;dt class=&quot;flex items-center gap-x-3 text-xl/8 font-semibold text-white&quot;&gt;
+            Productividad 2-3 veces mayor
+          &lt;/dt&gt;
+          &lt;dd class=&quot;mt-4 flex flex-auto flex-col text-base/7 text-gray-400&quot;&gt;
+            &lt;p class=&quot;flex-auto&quot;&gt;
+              En comparación con los procesos manuales por lotes
+            &lt;/p&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;flex flex-col&quot;&gt;
+          &lt;dt class=&quot;flex items-center gap-x-3 text-xl/8 font-semibold text-white&quot;&gt;
+            Cero inversión de capital
+          &lt;/dt&gt;
+          &lt;dd class=&quot;mt-4 flex flex-auto flex-col text-base/7 text-gray-400&quot;&gt;
+            &lt;p class=&quot;flex-auto&quot;&gt;
+              Producción a escala del cliente sin necesidad de adquirir nueva
+              infraestructura
+            &lt;/p&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;flex flex-col&quot;&gt;
+          &lt;dt class=&quot;flex items-center gap-x-3 text-xl/8 font-semibold text-white&quot;&gt;
+            Soporte empresarial
+          &lt;/dt&gt;
+          &lt;dd class=&quot;mt-4 flex flex-auto flex-col text-base/7 text-gray-400&quot;&gt;
+            &lt;p class=&quot;flex-auto&quot;&gt;
+              Suministro de material para un ensayo piloto con un importante
+              socio de la industria del salmón
+            &lt;/p&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+      &lt;/dl&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mt-16&quot;&gt;
+  &lt;h2 class=&quot;text-2xl font-bold tracking-tight text-gray-900&quot; id=&quot;el-reto&quot;&gt;El Reto ☎️&lt;/h2&gt;
+  &lt;p class=&quot;mt-6&quot;&gt;
+    La producción se vio limitada por un proceso por lotes a escala de
+    laboratorio, con una producción de solo 3 litros por lote. El flujo de
+    trabajo requería supervisión manual completa, con ciclos lentos de 3 a 5
+    días por litro. La ampliación a escala industrial habría requerido equipos
+    costosos y personal especializado, lo cual no era viable en una etapa
+    temprana.
+  &lt;/p&gt;
+  &lt;h2 class=&quot;mt-16 text-2xl font-bold tracking-tight text-gray-900&quot; id=&quot;la-solucion-de-nalca-biotech-prueba-de-factibilidad&quot;&gt;
+    La solución de Nalca Biotech: Prueba de Factibilidad
+  &lt;/h2&gt;
+  &lt;div class=&quot;flex max-w-4xl items-center justify-center&quot;&gt;
+    &lt;figure class=&quot;mt-6&quot;&gt;
+      &lt;img class=&quot;aspect-video rounded-xl bg-gray-50 object-cover&quot; src=&quot;/images/case-studies/bee-technology-1.png&quot; alt=&quot;Tom y Felipe en el laboratorio de BeeTech, trabajando en la implementación de Nalca 1&quot;&gt;
+      &lt;figcaption class=&quot;mt-2 flex gap-x-2 text-sm/6 text-gray-500&quot;&gt;
+        &lt;svg class=&quot;mt-0.5 size-5 flex-none text-gray-300&quot; viewBox=&quot;0 0 20 20&quot; fill=&quot;currentColor&quot; data-slot=&quot;icon&quot; aria-hidden=&quot;true&quot;&gt;
+          &lt;path d=&quot;M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z&quot; clip-rule=&quot;evenodd&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;/path&gt;
+        &lt;/svg&gt;
+        Tom y Felipe en el laboratorio de BeeTech, trabajando en la
+        implementación de Nalca 1
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;mt-6&quot;&gt;
+    Nalca 1 se implementó como un sistema de fermentación automatizado, continuo
+    y simplificado. El equipo brindó orientación técnica práctica para
+    identificar las principales deficiencias tecnológicas y reducir el riesgo
+    antes de la ampliación a escala industrial.
+  &lt;/p&gt;
+  &lt;h2 class=&quot;mt-16 text-2xl font-bold tracking-tight text-gray-900&quot; id=&quot;siguiente-paso-proyectos-piloto-y-soporte-empresarial-continuo&quot;&gt;
+    ¿Siguiente paso? Proyectos piloto y soporte empresarial continuo.
+  &lt;/h2&gt;
+  &lt;div class=&quot;flex max-w-4xl items-center justify-center&quot;&gt;
+    &lt;figure class=&quot;mt-6&quot;&gt;
+      &lt;img class=&quot;aspect-video rounded-xl bg-gray-50 object-cover&quot; src=&quot;/images/case-studies/bee-technology-2.png&quot; alt=&quot;Producción piloto realizada con Nalca 1 integrado con biorreactores de sobremesa en el laboratorio de Nalca Biotech&quot;&gt;
+      &lt;figcaption class=&quot;mt-2 flex gap-x-2 text-sm/6 text-gray-500&quot;&gt;
+        &lt;svg class=&quot;mt-0.5 size-5 flex-none text-gray-300&quot; viewBox=&quot;0 0 20 20&quot; fill=&quot;currentColor&quot; data-slot=&quot;icon&quot; aria-hidden=&quot;true&quot;&gt;
+          &lt;path d=&quot;M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z&quot; clip-rule=&quot;evenodd&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;/path&gt;
+        &lt;/svg&gt;
+        Producción piloto realizada con Nalca 1 integrado con biorreactores de
+        sobremesa en el laboratorio de Nalca Biotech
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+  &lt;h2 class=&quot;mt-16 text-2xl font-bold tracking-tight text-gray-900&quot; id=&quot;resultados&quot;&gt;
+    Resultados
+  &lt;/h2&gt;
+  &lt;ul class=&quot;mt-6 max-w-4xl space-y-8 text-gray-600&quot; role=&quot;list&quot;&gt;
+    &lt;li class=&quot;flex gap-x-3&quot;&gt;
+      &lt;span&gt;&lt;strong class=&quot;font-semibold text-gray-900&quot;&gt;Eficiente.&lt;/strong&gt; Los
+        tiempos de fermentación se redujeron significativamente, logrando una
+        mejora de velocidad de 5,3 veces en comparación con un sistema lineal
+        por lotes.
+      &lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;flex gap-x-3&quot;&gt;
+      &lt;span&gt;&lt;strong class=&quot;font-semibold text-gray-900&quot;&gt;Autónomo.&lt;/strong&gt; Se
+        alcanzaron mayores volúmenes de producción sin supervisión constante del
+        operador, superando las limitaciones de la escala de laboratorio y
+        demostrando escalabilidad técnica y económica.
+      &lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class=&quot;flex gap-x-3&quot;&gt;
+      &lt;span&gt;&lt;strong class=&quot;font-semibold text-gray-900&quot;&gt;Apoyo empresarial.&lt;/strong&gt;
+        Nalca Biotech colaboró ​​en la transformación de la producción piloto en
+        un caso de uso industrial claro, apoyando las conversaciones con una
+        empresa líder en la industria del salmón.
+      &lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;mt-16&quot;&gt;
+  Visite
+  &lt;a href=&quot;https://www.instagram.com/beetechnology_cl/&quot; target=&quot;_beetechnology&quot;&gt;www.instagram.com/beetechnology_cl&lt;/a&gt;
+  para obtener más información sobre Bee Technology y los productos y servicios
+  que ofrecen.
+&lt;/div&gt;
+</content>
+    </entry>
 </feed>
