@@ -140,7 +140,7 @@ function Te(e) {
       : e;
 }
 function Ho(e) {
-  for (; e; ) {
+  for (; e;) {
     if (
       e instanceof HTMLElement &&
       e.popover === "auto" &&
@@ -157,7 +157,7 @@ function Ho(e) {
   }
 }
 function Hn(e) {
-  for (; e; ) {
+  for (; e;) {
     let o = e.popoverTargetElement;
     if (o instanceof HTMLElement) return o;
     if (
@@ -179,7 +179,7 @@ function Po(e, o) {
     let a = !1,
       l = null,
       u = null;
-    for (; !a; ) {
+    for (; !a;) {
       if (((l = Ho(s) || null), l === null || !t.has(l))) return;
       ((e.popover === "hint" || l.popover === "auto") && (a = !0),
         a || (s = l.parentElement));
@@ -222,7 +222,7 @@ function Bn(e) {
   }
   let n = e.ownerDocument.createTreeWalker(o, NodeFilter.SHOW_ELEMENT),
     r = n.currentNode;
-  for (; r; ) {
+  for (; r;) {
     if (Rn(r)) return r;
     r = n.nextNode();
   }
@@ -307,16 +307,16 @@ function Se(e, o = !1, t = !1) {
 }
 function Fn(e, o = !1, t = !1) {
   let n = Ve(e);
-  for (; n; ) (Se(n, o, t), (n = Ve(e)));
+  for (; n;) (Se(n, o, t), (n = Ve(e)));
 }
 function Bt(e, o = !1, t = !1) {
   let n = ko(e);
-  for (; n; ) (Se(n, o, t), (n = ko(e)));
+  for (; n;) (Se(n, o, t), (n = ko(e)));
 }
 function Co(e, o, t, n) {
   let r = !1,
     i = !1;
-  for (; r || !i; ) {
+  for (; r || !i;) {
     i = !0;
     let s = null,
       a = !1;
@@ -327,7 +327,7 @@ function Co(e, o, t, n) {
         break;
       }
     if (!s) return;
-    for (; it(s) === "showing" && o.size; ) Se(qe(o), t, n);
+    for (; it(s) === "showing" && o.size;) Se(qe(o), t, n);
     (o.has(e) && qe(o) !== e && (r = !0), r && (n = !1));
   }
 }
@@ -1823,7 +1823,7 @@ function ht(e) {
 }
 function tn(e) {
   let o = ee(e);
-  for (; j(o) && !ve(o); ) {
+  for (; j(o) && !ve(o);) {
     if (ht(o)) return o;
     if (Ue(o)) return null;
     o = ee(o);
@@ -1934,7 +1934,7 @@ function we(e, o, t, n) {
       b = n && V(n) ? R(n) : n,
       f = c,
       h = bt(f);
-    for (; h && n && b !== f; ) {
+    for (; h && n && b !== f;) {
       let p = De(h),
         v = h.getBoundingClientRect(),
         y = W(h),
@@ -2050,7 +2050,7 @@ function pr(e, o) {
     r = null,
     i = W(e).position === "fixed",
     s = i ? ee(e) : e;
-  for (; V(s) && !ve(s); ) {
+  for (; V(s) && !ve(s);) {
     let a = W(s),
       l = ht(s);
     (!l && a.position === "fixed" && (r = null),
@@ -2136,14 +2136,14 @@ function cn(e, o) {
   if (Ue(e)) return t;
   if (!j(e)) {
     let r = ee(e);
-    for (; r && !ve(r); ) {
+    for (; r && !ve(r);) {
       if (V(r) && !Ut(r)) return r;
       r = ee(r);
     }
     return t;
   }
   let n = rn(e, o);
-  for (; n && en(n) && Ut(n); ) n = rn(n, o);
+  for (; n && en(n) && Ut(n);) n = rn(n, o);
   return n && ve(n) && Ut(n) && !ht(n) ? t : n || tn(e) || t;
 }
 var br = async function (e) {
@@ -2717,7 +2717,7 @@ function Cr() {
                 if (ze(i.target) && vn(i.target))
                   if (t(i.target)) {
                     let s = i.target;
-                    for (; s.parentElement && t(s.parentElement); )
+                    for (; s.parentElement && t(s.parentElement);)
                       s = s.parentElement;
                     o.style(s, "overscrollBehavior", "contain");
                   } else o.style(i.target, "touchAction", "none");
